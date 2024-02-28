@@ -1,0 +1,8 @@
+name = input('Enter your name: ')
+names_list = []
+while name != 'exit':
+    names_list.append(name)
+    name = input('Enter your name: ')
+
+names_list.sort(key=len)
+print(names_list)
